@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. Immigration Navigator PRO - Where Others Get Stuck, You Move Forward</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+        .guarantee-badge {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+        }
+        .payment-logo {
+            height: 30px;
+            object-fit: contain;
+            filter: grayscale(100%) contrast(0.5);
+            transition: all 0.3s ease;
+        }
+        .payment-logo:hover {
+            filter: none;
+        }
+        .ssl-badge {
+            font-size: 0.75rem;
+            padding-top: 4px;
+        }
+        .ssl-badge i {
+            font-size: 0.9em;
+            margin-right: 4px;
+        }
+        .cta-primary {
+            background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+            box-shadow: 0 4px 6px rgba(245, 158, 11, 0.3);
+            transition: all 0.3s ease;
+        }
+        .cta-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(245, 158, 11, 0.4);
+        }
+        .cta-secondary {
+            background: transparent;
+            border: 2px solid white;
+            transition: all 0.3s ease;
+        }
+        .cta-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .cta-pricing {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
+        }
+        .cta-pricing:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(37, 99, 235, 0.4);
+        }
+        .rating-badge {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 4px 10px;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+        }
+        .protection-badge {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            padding: 8px 16px;
+        }
+        .hero-badge {
+            background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+            color: #1e3a8a;
+            font-weight: 800;
+            padding: 6px 18px;
+            border-radius: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .trust-badge {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            font-weight: 700;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .verified-badge {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            padding: 12px 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .rotate-180 {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-20 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <!-- Enhanced Trust Badge -->
+                    <div class="verified-badge mb-6">
+                        <div class="bg-white text-green-600 rounded-full p-2 mr-3">
+                            <i class="fas fa-certificate text-lg"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-sm">VERIFIED & TRUSTED BY 1,200+ IMMIGRANTS</p>
+                            <p class="text-xs opacity-80">Real people who successfully navigated the U.S. immigration system</p>
+                        </div>
+                    </div>
+                    
+                    <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-8">
+                        U.S. Immigration Navigator PRO <br>
+                        <span class="text-yellow-300">Where Others Get Stuck, You Move Forward</span>
+                    </h1>
+                    <p class="text-lg mb-10">
+                        After $18,000 in legal fees and 3 years of struggle. From deportation notice to permanent residency—what to say, when to file, and how to avoid the irreversible mistakes. Practical steps, templates, and unwritten rules. Everything they should have told you from day one.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <!-- Fixed Button 1 -->
+                        <div class="text-center">
+                            <a href="https://warriorplus.com/o2/buy/hlwvt1/dnmyc9/s2c8zt"><img src="https://warriorplus.com/o2/btn/fn100000000/hlwvt1/dnmyc9/443538" alt="Get Instant Access Now"></a>
+                        </div>
+                        <a href="#features" class="cta-secondary font-bold py-4 px-8 rounded-lg text-center flex items-center justify-center">
+                            <i class="fas fa-eye mr-2"></i> See What's Inside
+                        </a>
+                    </div>
+                    <div class="mt-8 flex items-center">
+                        <div class="flex -space-x-2 mr-4">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="https://randomuser.me/api/portraits/women/68.jpg" alt="">
+                        </div>
+                        <div class="rating-badge">
+                            <div class="flex text-yellow-300 mr-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="font-medium">4.8 from 256 reviews</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <img src="https://i.postimg.cc/7L1mLZS2/generation-bbee642b-3a75-474a-bb91-263c9d81985f-png.jpg" alt="U.S. Immigration Navigator PRO" class="rounded-xl shadow-2xl w-full max-w-md border-4 border-white transform rotate-2">
+                        <div class="absolute -bottom-5 -right-5 bg-white text-blue-900 px-6 py-3 rounded-lg shadow-lg font-bold flex items-center">
+                            <i class="fas fa-tag mr-2"></i> Only $57
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="bg-gray-100 py-8">
+        <div class="container mx-auto max-w-6xl px-4">
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                <div class="flex items-center protection-badge">
+                    <div class="guarantee-badge bg-green-100 text-green-800 rounded-full p-3 mr-3">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold">14-Day Money Back</p>
+                        <p class="text-sm">No questions asked</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center protection-badge">
+                    <div class="bg-blue-100 text-blue-800 rounded-full p-3 mr-3">
+                        <i class="fas fa-lock text-2xl"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold">Bank Level Protection</p>
+                        <p class="text-sm">256-bit encrypted transactions</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center protection-badge">
+                    <div class="bg-purple-100 text-purple-800 rounded-full p-3 mr-3">
+                        <i class="fas fa-headphones text-2xl"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold">Exclusive Podcast</p>
+                        <p class="text-sm">Deep analysis & discussion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-2xl font-bold text-center mb-6">What You'll Get Inside</h2>
+            <p class="text-lg text-center text-gray-600 mb-16 max-w-3xl mx-auto">
+                This isn't theoretical advice from an outsider - it's a battle-tested survival manual from someone who's lived through the system and came out stronger.
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md border border-blue-100">
+                    <div class="feature-icon bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-book-open text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">A Practical U.S. Immigration Navigator (140 pages)</h3>
+                    <p class="text-gray-600">
+                        Handwritten by me, who has gone through the stuff you are dealing with right now. Pouring all lessons, experiences, knowledge - everything that I learned the hard way into this U.S. Immigration Navigator for you to not suffer the way I did.
+                    </p>
+                </div>
+                
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md border border-purple-100">
+                    <div class="feature-icon bg-purple-100 text-purple-600 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-podcast text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Exclusive Podcast Episode</h3>
+                    <p class="text-gray-600">
+                        A deep analysis & discussion on Immigration in the U.S - recorded exclusively for you. This isn't just an update - it's a strategic look at what's really happening and how it affects you.
+                    </p>
+                </div>
+                
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md border border-green-100">
+                    <div class="feature-icon bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-globe-americas text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Resource Website Access</h3>
+                    <p class="text-gray-600">
+                        Private portal with constantly updated official resources, useful tools, and community support. Includes templates for important documents and step-by-step checklists to keep you organized.
+                    </p>
+                </div>
+                
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md border border-red-100">
+                    <div class="feature-icon bg-red-100 text-red-600 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Community Support Network</h3>
+                    <p class="text-gray-600">
+                        Connect with others going through similar experiences. Our private community provides emotional support, practical advice, and a safe space to share concerns and victories.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="bg-blue-50 border border-blue-200 rounded-xl p-8 max-w-4xl mx-auto">
+                <h3 class="text-2xl font-bold text-blue-800 mb-4">Plus These Critical Bonuses (Included in Website Access):</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                        <span><strong>Emergency Contact List</strong> - Who to call in different crisis situations, including trusted legal aid organizations</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                        <span><strong>Document Preparation Checklist</strong> - Exactly what paperwork you need for different applications, organized by category</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                        <span><strong>Red Flag Warning Signs</strong> - How to spot immigration scams and bad legal advice before they cost you money or jeopardize your case</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                        <span><strong>Community Support Directory</strong> - Verified organizations that can help in your local area, vetted by our team</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 px-4 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-12">Real Stories From Our Community</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-gray-50 p-8 rounded-lg border border-gray-200 transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="text-sm text-gray-500">2 weeks ago</span>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">
+                        "Maria's U.S. Immigration Navigator PRO gave us the knowledge we needed when we felt lost. When ICE agents came to our neighborhood, we followed the step-by-step instructions. We stayed calm, asserted our rights, and were able to avoid being detained. This guide is practical and worth every penny."
+                    </p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Elena Rodriguez" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-bold">Elena Vasquez</p>
+                            <p class="text-sm text-gray-500">Asylum applicant, mother of two</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-gray-50 p-8 rounded-lg border border-gray-200 transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="text-sm text-gray-500">1 month ago</span>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">
+                        "The document checklist in the U.S. Immigration Navigator PRO alone saved me $3,000 in legal fees. My lawyer was impressed with how organized I was. Maria explains things clearly - not like confusing government websites. My green card application is moving smoothly thanks to this guide."
+                    </p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Carlos Mendez" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-bold">Carlos Mendez</p>
+                            <p class="text-sm text-gray-500">Adjusting status, restaurant owner</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-gray-50 p-8 rounded-lg border border-gray-200 transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="text-sm text-gray-500">5 days ago</span>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">
+                        "As a DACA recipient, I live with constant uncertainty. Maria's U.S. Immigration Navigator PRO podcast episode and community support have reduced my anxiety more than anything else. Finally something useful from someone who knows exactly what I needed! The community alone is worth joining."
+                    </p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Sophia Kim" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-bold">Sophia Park</p>
+                            <p class="text-sm text-gray-500">DACA recipient, college student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-blue-900 text-white px-4">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Get Your U.S. Immigration Navigator PRO Today</h2>
+                <p class="text-xl text-blue-200 max-w-2xl mx-auto">
+                    Take control of your immigration journey with practical, real-world advice from someone who's been through it all.
+                </p>
+            </div>
+            
+            <div class="bg-white text-gray-800 rounded-xl shadow-2xl overflow-hidden max-w-md mx-auto">
+                <div class="p-8">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold">Complete Package</h3>
+                            <p class="text-gray-600">Instant access to all materials</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm line-through text-gray-500">$97</p>
+                            <p class="text-3xl font-bold text-blue-600">$57</p>
+                        </div>
+                    </div>
+                    
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span>Practical U.S. Immigration Navigator PRO (PDF)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span>Exclusive Podcast Episode (Deep Analysis)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span>Private Resource Website Access</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span>Community Support Network</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span>4 Exclusive Bonuses (included in website access)</span>
+                        </li>
+                    </ul>
+                    
+                    <!-- Fixed Button 2 -->
+                    <div class="text-center mb-6">
+                        <a href="https://warriorplus.com/o2/buy/hlwvt1/dnmyc9/s2c8zt"><img src="https://warriorplus.com/o2/btn/fn050000000/hlwvt1/dnmyc9/443538?ct2=Download%20Now%20" alt="Download Now"></a>
+                    </div>
+                    
+                    <div class="flex flex-col items-center">
+                        <div class="flex items-center justify-center mb-2 gap-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png" alt="Mastercard" class="payment-logo h-8" style="filter: none;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png" alt="Visa" class="payment-logo h-8" style="filter: none;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Paypal_2014_logo.png/640px-Paypal_2014_logo.png" alt="PayPal" class="payment-logo h-8" style="filter: none;">
+                        </div>
+                        <p class="ssl-badge text-xs text-green-600 font-medium flex items-center justify-center">
+                            <i class="fas fa-lock"></i> Bank Level Protection: 256-bit SSL Encryption
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 text-blue-900 p-6 text-center border-t border-blue-200">
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-shield-alt text-2xl mr-3 text-blue-600"></i>
+                        <p class="font-bold">
+                            14-Day Money Back Guarantee
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-2xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-bold text-lg">
+                        <span>Is this legal advice?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-3 text-gray-600 hidden">
+                        <p>No, this is not legal advice. This U.S. Immigration Navigator PRO contains practical information based on my personal experience navigating the U.S. immigration system. While I've consulted with immigration attorneys to ensure accuracy, you should always consult with a qualified immigration lawyer for your specific case. Think of this as the "what to expect" guide you'd get from a friend who's been through the process.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-bold text-lg">
+                        <span>How is this different from free online resources?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-3 text-gray-600 hidden">
+                        <p>Most free resources are either overly simplistic or written in confusing legal jargon. This U.S. Immigration Navigator PRO cuts through the complexity with clear, actionable advice from someone who's actually been through the system. You'll get real-world strategies, not just theoretical information. Plus, our community support and constantly updated resources ensure you're never navigating this alone.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-bold text-lg">
+                        <span>Immigration policy changes all the time. Will this U.S. Immigration Navigator quickly become outdated?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-3 text-gray-600 hidden">
+                        <p>No. While policies shift, the core strategies for protecting your rights, preparing for emergencies, and understanding the system's tactics are timeless. This U.S. Immigration Navigator PRO focuses on equipping you for any shift, not just the current ones.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-bold text-lg">
+                        <span>I'm worried about my family if something happens to me. Does this U.S. Immigration Navigator cover that?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-3 text-gray-600 hidden">
+                        <p>This U.S. Immigration Navigator PRO hammers on it. We lay out concrete steps for protecting your loved ones, your assets, and even your digital life. It's about empowering you to build a robust family survival plan.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-bold text-lg">
+                        <span>I've heard about so many immigration scams. How can I avoid them, and does this U.S. Immigration Navigator help?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-3 text-gray-600 hidden">
+                        <p>Absolutely. We dedicate a full section to exposing common scams, from fake lawyers to online tricksters, and tell you how to spot them and where to report them. This U.S. Immigration Navigator PRO is your shield against exploitation.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-bold text-lg">
+                        <span>How do I access the materials after purchasing?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content mt-3 text-gray-600 hidden">
+                        <p>Immediately after completing your secure payment, you'll receive an email with download links for all materials. The U.S. Immigration Navigator PRO is in PDF format (readable on any device), the podcast is in MP3 format, and you'll get instant access to our private resource website and community support network. You can access everything on your computer, phone, or tablet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 px-4 bg-gray-900 text-white">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-2xl font-bold mb-8">Don't Navigate the Immigration System Alone</h2>
+            <p class="text-lg mb-10 max-w-2xl mx-auto">
+                The difference between staying in the country and being deported often comes down to having the right information at the right time. Don't leave your future to chance.
+            </p>
+            <!-- Fixed Button 3 -->
+            <div class="mb-6 text-center">
+                <a href="https://warriorplus.com/o2/buy/hlwvt1/dnmyc9/s2c8zt"><img src="https://warriorplus.com/o2/btn/fn010000000/hlwvt1/dnmyc9/443538?ct2=Secure%20My%20Copy" alt="Secure My Copy"></a>
+            </div>
+            <div class="flex items-center justify-center">
+                <i class="fas fa-shield-alt text-yellow-400 mr-2"></i>
+                <p>14-Day Money Back Guarantee</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="bg-gray-800 text-gray-400 text-xs p-6">
+        <div class="container mx-auto max-w-6xl">
+            <!-- Fixed Disclaimer -->
+            <script type="text/javascript" src="https://warriorplus.com/o2/disclaimer/hlwvt1" defer></script>
+            <div class="wplus_spdisclaimer"></div>
+        </div>
+    </div>
+
+    <script>
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const content = button.nextElementSibling;
+                
+                // Toggle the hidden class on the content
+                content.classList.toggle('hidden');
+                
+                // Rotate the chevron icon
+                const icon = button.querySelector('i');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+    </script>
+</body>
+</html>
